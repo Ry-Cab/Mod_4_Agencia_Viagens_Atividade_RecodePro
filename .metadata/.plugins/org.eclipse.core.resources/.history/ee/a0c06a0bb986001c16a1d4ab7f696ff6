@@ -1,0 +1,5 @@
+package com.tripshow.connection;
+
+public class DAODestino {
+
+}
