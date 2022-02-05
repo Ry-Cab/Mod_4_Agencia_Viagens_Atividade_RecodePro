@@ -1,0 +1,84 @@
+/*Main 1 ==============================================*/
+.bloco_1{
+    width: auto;
+    height: 14em;
+    background-color: rgb(214, 214, 214);
+    background-position-y: center;
+    padding: 115px;
+}
+.aside{
+    width: 700px;
+    height: 150px;
+    background-color: white;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 10px;
+    
+ }
+
+ .aside > div > h1{
+     font-size: 2em;
+     margin-bottom: 0.5em;
+ }
+
+.aside-flex{
+    display: flex;
+    flex-direction: row;
+    margin: 10x;
+}
+.aside-item{
+    display: inline;
+    margin: 2px;
+    width: 10em;
+    
+}
+.button-aside{
+    background-color: #F75611;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.button-aside:hover{
+    background-color: #ac3c0b;
+}
+.aside-item > input , select{
+    height: 3em;
+    width: 10em;
+    border-radius: 5px;
+    border: 0.5px solid black;
+}
+.aside > button{
+    height: 3em;
+    padding: 0.5em;
+    
+}
+
+/*Main 2*/
+.bloco_2{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.outdoor_main{
+    margin-bottom: 0.9em;
+    margin-top: 0.9em;
+    background-color: #F75611;
+    color: white;
+    padding: 5em;
+    padding-left: 20em;
+    margin-left: -20%;
+    margin-right: -20%;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    position: relative;
+}
+.outdoor_main > *{
+    padding: 5px;
+}
+
+/*Grid da Main 2 ====================================*/
+
+.container_home{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+

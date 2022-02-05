@@ -1,0 +1,39 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <%@page import="com.tripshow.models.Cliente" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<%@include file="/components/header.jsp" %>
+<% Cliente cliente = (Cliente) request.getAttribute("cliente"); %>
+<main class="container">
+<table class="table">
+<caption>Dados do Cliente</caption>
+<tr>
+	<th>ID:</th>
+	<td><%= cliente.getId_cliente() %></td>
+	<th>Nome:</th>
+	<td><%= cliente.getNome_cliente() %></td>
+	<th>Email:</th>
+	<td><%= cliente.getEmail_cliente() %></td>
+	<th>Data de nascimento/th>
+	<td><%= cliente.getData_nascimento() %></td>
+	<th>Estado:</th>
+	<td><%= cliente.getEstado_cliente() %></td>
+	<th>ID:</th>
+	<td><%= cliente.getCidade_cliente() %></td>
+	<th>ID:</th>
+	<td><%= cliente.getData_ida() %></td>
+	<th>ID:</th>
+	<td><%= cliente.getData_volta() %></td>
+	
+</tr>
+</table>
+
+</main>
+</body>
+</html>

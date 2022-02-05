@@ -1,0 +1,24 @@
+<%@page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Trip Show Data Hub</title>
+</head>
+<body>
+<%@include file="/components/header.jsp" %>
+
+<main class="container">
+<h1>Clientes</h1>
+<nav>
+<a href="criarCliente.jsp">Cadastrar</a>
+<a href="atualizarCliente.jsp">Atualizar</a>
+<a href="consultarCliente.jsp">Consultar</a>
+<a href="excluirCliente.jsp">Excluir</a>
+</nav>
+</main>
+
+</body>
+</html>
