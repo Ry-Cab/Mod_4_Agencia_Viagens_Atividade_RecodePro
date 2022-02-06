@@ -8,10 +8,9 @@ export default function Contato() {
           
         <Form></Form>
         <address>
-            <h1>Trip Show</h1>
+            <h5>Contato</h5>
             <div>
             <p>Email: tripshow@contato.com</p>
-            <h2>Contatos</h2>
             <p>SAC: 0800-250-636</p>
             <p>Atendimento: 4698-6525</p>
             </div>
