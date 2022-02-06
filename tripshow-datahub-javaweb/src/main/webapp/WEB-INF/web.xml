@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<servlet>
-<servlet-name>READCLIENTE</servlet-name>
-<servlet-class>com.tripshow.controller.READCLIENTE</servlet-class>
-</servlet>
-
-<servlet-mapping></servlet-mapping>
-	<servlet-name>READCLIENTE</servlet-name>
-	<url-pattern>/READCLIENTE</url-pattern>

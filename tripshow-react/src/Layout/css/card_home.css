@@ -5,6 +5,7 @@
     width: 22rem;
     
 }
-.card_img{
+.card-img{
     height: auto;
+    filter: brightness(70%);
 }

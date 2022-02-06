@@ -11,7 +11,7 @@
 	 <main class="container">
  <h1>Atualizar</h1>
  <form action="Destino.Update" method="get">
- <div class="form-group">
+
   	<div class="form-group">
  	<label>Digite o Id do Destino: </label>
 	<input class="form-control" type="text" name="txtIdDes"/>

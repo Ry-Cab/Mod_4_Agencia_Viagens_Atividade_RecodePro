@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Vai se foder Java</h1>
+	<%@ include file="header.jsp" %>
+<main class="container">
+<h1>Ops! Erro 404</h1>
+
+</main>
 </body>
 </html>

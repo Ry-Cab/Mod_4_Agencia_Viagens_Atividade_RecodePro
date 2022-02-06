@@ -3,4 +3,8 @@
     <fullyQualifiedTypeName name="com.tripshow.models.Cliente"/>
     <fullyQualifiedTypeName name="com.tripshow.connection.DAOCliente"/>
     <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="com.tripshow.models.Destino"/>
+    <fullyQualifiedTypeName name="com.tripshow.connection.DAODestino"/>
+    <fullyQualifiedTypeName name="com.tripshow.models.Passagem"/>
+    <fullyQualifiedTypeName name="com.tripshow.connection.DAOPassagem"/>
 </qualifiedTypeNameHistroy>

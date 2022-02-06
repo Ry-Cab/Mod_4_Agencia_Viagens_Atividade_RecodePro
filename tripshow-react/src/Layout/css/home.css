@@ -78,7 +78,8 @@
 /*Grid da Main 2 ====================================*/
 
 .container_home{
-    margin-left: 50px;
-    margin-right: 50px;
+  text-align: center;   
+  margin-left: 10%;
+  margin-right: 10%;
 }
 

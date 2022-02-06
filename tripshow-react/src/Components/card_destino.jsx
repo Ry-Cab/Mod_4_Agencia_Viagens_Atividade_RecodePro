@@ -13,10 +13,10 @@ function CardDestino(props){
         <ul class="list-group list-group-flush">
          <li class="list-group-item">Ida e volta</li>
         <li class="list-group-item">{props.Desconto}</li>
-        <li class="list-group-item">{props.Descontado}</li>
+        <li class="list-group-item"><del>{props.Descontado}</del></li>
         </ul>
         <div class="card-body">
-        <p class="card-link">{props.Preco}</p>
+        <p class="card-link"><strong>R${props.Preco}</strong></p>
         <button className="btn btn-primary">Comprar</button>
         </div>
         </div>
