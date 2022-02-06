@@ -15,6 +15,7 @@
    </div>
    </div>
 <main class="container">
+<p>Opções</p>
 <nav>
 <a class="btn btn-success" href="CREATEPassagem.jsp">Cadastrar</a>
 <a class="btn btn-primary" href="UPDATEPassagem.jsp">Atualizar</a>

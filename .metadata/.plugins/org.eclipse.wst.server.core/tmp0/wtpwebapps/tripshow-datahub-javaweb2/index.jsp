@@ -8,8 +8,13 @@
 </head>
 <body>
 	<%@ include file="header.jsp" %>
+	<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Área do Administrador</h1>
+   </div>
+</div>
 	<main class="container">
-	<h1>Bem-vindo(a)!</h1>
+	
 	</main>
 </body>
 </html>

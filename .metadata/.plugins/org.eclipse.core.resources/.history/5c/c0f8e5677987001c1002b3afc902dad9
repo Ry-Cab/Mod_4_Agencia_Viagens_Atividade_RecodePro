@@ -11,15 +11,16 @@
 <%@include file="header.jsp" %>
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1 class="display-4">Passagem</h1>
+    <h1 class="display-4">Clientes</h1>
    </div>
-   </div>
+</div>
 <main class="container">
+<p>Opções</p>
 <nav>
-<a class="btn btn-success" href="CREATEPassagem.jsp">Cadastrar</a>
-<a class="btn btn-primary" href="UPDATEPassagem.jsp">Atualizar</a>
-<a class="btn btn-primary" href="READPassagem.jsp">Consultar</a>
-<a class="btn btn-danger" href="DELETEPassagem.jsp">Excluir</a>
+<a class="btn btn-success" href="CREATECliente.jsp">Cadastrar</a>
+<a class="btn btn-primary" href="UPDATECliente.jsp">Atualizar</a>
+<a class="btn btn-primary" href="READCliente.jsp">Consultar</a>
+<a class="btn btn-danger" href="DELETECliente.jsp">Excluir</a>
 </nav>
 </main>
 

@@ -9,9 +9,12 @@
 </head>
 <body>
 <%@include file="header.jsp" %>
-
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Passagem</h1>
+   </div>
+   </div>
 <main class="container">
-<h1>Passagem</h1>
 <nav>
 <a class="btn btn-success" href="CREATEPassagem.jsp">Cadastrar</a>
 <a class="btn btn-primary" href="UPDATEPassagem.jsp">Atualizar</a>
