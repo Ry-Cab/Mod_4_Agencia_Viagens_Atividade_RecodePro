@@ -6,11 +6,17 @@ import '../Layout/css/home.css'
 import Aside from "../Components/aside.jsx";
 
 
+
 export default function Home() {
     return (
         <>
             <Aside></Aside>
+            
+            
             <main className="container_home">
+                <div className="texto-main"><h1>Aqui você encontra os melhores destinos!</h1>
+            <p>Dê uma olhada :)</p></div>
+            
             <div className="row">
             <Card class="col" titulo_card="Pará" img="https://www.aprendizdeviajante.com/wp-content/uploads/2019/11/66FCDE49-9347-4713-AB17-7CD4B9F68063.jpeg" />
 
@@ -25,6 +31,7 @@ export default function Home() {
 
             <Card class="col" titulo_card="Rio Grande do Sul" img="https://media.istockphoto.com/photos/gramado-rio-grande-do-sul-brazil-in-christmas-picture-id1157041336?k=20&m=1157041336&s=170667a&w=0&h=5coikzQh7k018Uw5Cn2jcbuRp0YbybqOhJV3U5ZZnp8="/>
             </div>
+            
             </main>
         </>
     );

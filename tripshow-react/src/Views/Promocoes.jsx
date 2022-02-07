@@ -5,7 +5,7 @@ import Jumbotron from '../Components/jumbotron';
 function Promocoes(){
     return(
         <>
-            <Jumbotron titulo="Promoções feitas para você!"></Jumbotron>
+            <Jumbotron titulo="Promoções feitas para você!" subtitulo="Válidas apenas para os destinos selecionados."></Jumbotron>
             <main className="container container_compra">
                 <CardDestino className="card_compra" img="http://2.bp.blogspot.com/-RThEwEqQrtc/Uk2l9uuty4I/AAAAAAAAnE0/ZsPTiyseI_A/s1600/Rio-de-Janeiro.jpg" Estado="Pernambuco" Cidade="Recife" Desconto="30%" Descontado="R$543.00" Preco="380,10"/>
                 <CardDestino className="card_compra" img="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/dd/dd/0b.jpg" Estado="Pernambuco" Cidade="Recife" Desconto="30%" Descontado="R$543.00" Preco="380,10"/>

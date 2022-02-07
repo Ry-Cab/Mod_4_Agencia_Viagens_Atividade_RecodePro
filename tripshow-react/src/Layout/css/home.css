@@ -1,61 +1,62 @@
-/*Main 1 ==============================================*/
-.bloco_1{
-    width: auto;
-    height: 14em;
-    background-color: rgb(214, 214, 214);
-    background-position-y: center;
-    padding: 115px;
-}
+
+
 .jumbotron-img{
     margin-top: -26px;
-    background-image: url('/public/img/home_images/parana.jpg');
+    background-image: url('/public/img/home_images/mar.jpg');
     background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
+   
+    background-position-y: center;
 }
 
 .form-card{
-    background-color: #f75611;
-    box-shadow: 1px 1px 15px;
+    background-color: rgb(255, 255, 255);
+
     padding: 1em;
     border-radius: 10px;
     margin: 2rem;
     width: 35rem;
 }
 .form-card > h1{
-    color: white;
+    color: black;
 }
 label{
-    color: white;
+    color: black;
 }
 .form-group{
     width: auto;
 }
 
 
-/*Main 2*/
-.bloco_2{
-    margin-left: 1em;
-    margin-right: 1em;
+
+h1.h1-aside{
+    font-size: 30px;
+    border: none;
+    
 }
-.outdoor_main{
-    margin-bottom: 0.9em;
-    margin-top: 0.9em;
-    background-color: #F75611;
-    color: white;
-    padding: 5em;
-    padding-left: 20em;
-    margin-left: -20%;
-    margin-right: -20%;
-    margin-top: 2em;
-    margin-bottom: 1em;
-    position: relative;
-}
-.outdoor_main > *{
-    padding: 5px;
+.texto-main{
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
-/*Grid da Main 2 ====================================*/
+input.form-control-home{
+    border: 1px solid black;
+}
+select.form-control-home{
+    border: 1px solid black;
+
+}
+
+button.btn-aside{
+    background-color: #F75611;
+    margin-top: 20px;
+    width: 100%;
+    
+}
+button.btn-aside:hover{
+    background-color: #F70C5B;
+  
+}
+
 
 .container_home{
   text-align: center;   

@@ -11,8 +11,9 @@ export default function Aside(){
 
   <div className="row">
       <div class="form-group col">
-        <label for="exampleInputEmail1">Destino</label>
-        <select name="" id="" className="form-control">
+        <h1 className="h1-aside">PASSAGENS ÁEREAS</h1>
+        <label for="exampleInputEmail1">Para onde você quer ir?</label>
+        <select name="" id="" className="form-control form-control-home">
                     <option value="">Selecione</option>
                     <option value="">Rio de Janeiro - RJ</option>
                     <option value="">São Paulo - SP</option>
@@ -30,16 +31,16 @@ export default function Aside(){
   <div className="row">
   <div class="col">
         <label for="exampleInputEmail1">Data de ida</label>
-        <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+        <input type="date" class="form-control form-control-home" id="exampleInputEmail1" aria-describedby="emailHelp"/>
       </div>
       <div class="col">
         <label for="exampleInputEmail1">Data de volta</label>
-        <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+        <input type="date" class="form-control form-control-home" id="exampleInputEmail1" aria-describedby="emailHelp" />
       </div>
   </div>
   <div className="row">
       <div className="col">
-      <button type="submit" class="btn btn-primary">Buscar</button>
+      <button type="submit" class="btn btn-primary btn-aside">Buscar</button>
       </div>
   </div>
 </form>

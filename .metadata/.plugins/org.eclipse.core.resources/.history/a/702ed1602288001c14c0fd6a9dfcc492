@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <style>
+	Form{
+	width: 100%;
+	height: 10%;
+	padding: 50%;
+	color: white;
+	
+	}
+	</style>
+<Form class="bg bg-primary">
+<p>A</p>
+</Form>
