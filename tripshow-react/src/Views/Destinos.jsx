@@ -2,11 +2,14 @@ import React from 'react';
 
 import CardDestino from  '../Components/card_destino.jsx';
 import CardDestinoCss from '../Layout/css/CardDestino.css';
-
+import Jumbotron from '../Components/jumbotron.jsx';
+import Carrosel from '../Components/carrosel.jsx';
 
 export default function Destinos(){
     return(
         <>
+        <Jumbotron titulo="Destinos para você!" subtitulo="Vem de Trip Show!"></Jumbotron>
+        
         <link rel="stylesheet" href={CardDestinoCss}></link>
         <main className="container container_compra">
             <CardDestino Estado="RJ" Cidade="Rio de Janeiro" Preco="289.00" img="http://2.bp.blogspot.com/-RThEwEqQrtc/Uk2l9uuty4I/AAAAAAAAnE0/ZsPTiyseI_A/s1600/Rio-de-Janeiro.jpg" />

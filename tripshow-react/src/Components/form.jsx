@@ -3,7 +3,7 @@ import React from 'react';
 function Form(){
     return(
         <>
-        <h1>Fale conosco por aqui!</h1>
+        <h1>Fale conosco!</h1>
         <form>
   <div class="form-row">
     <div class="form-group col-md-6">

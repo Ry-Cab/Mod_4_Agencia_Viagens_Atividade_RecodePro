@@ -3,12 +3,13 @@ import Card from '../Components/card.jsx';
 import '../Layout/css/card_home.css'
 import '../Layout/css/home.css'
 
-
+import Aside from "../Components/aside.jsx";
 
 
 export default function Home() {
     return (
         <>
+            <Aside></Aside>
             <main className="container_home">
             <div className="row">
             <Card class="col" titulo_card="Pará" img="https://www.aprendizdeviajante.com/wp-content/uploads/2019/11/66FCDE49-9347-4713-AB17-7CD4B9F68063.jpeg" />

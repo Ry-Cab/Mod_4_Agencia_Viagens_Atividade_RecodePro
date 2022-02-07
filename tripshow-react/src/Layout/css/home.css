@@ -6,52 +6,32 @@
     background-position-y: center;
     padding: 115px;
 }
-.aside{
-    width: 700px;
-    height: 150px;
-    background-color: white;
-    display: inline-block;
-    padding: 30px;
+.jumbotron-img{
+    margin-top: -26px;
+    background-image: url('/public/img/home_images/parana.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.form-card{
+    background-color: #f75611;
+    box-shadow: 1px 1px 15px;
+    padding: 1em;
     border-radius: 10px;
-    
- }
-
- .aside > div > h1{
-     font-size: 2em;
-     margin-bottom: 0.5em;
- }
-
-.aside-flex{
-    display: flex;
-    flex-direction: row;
-    margin: 10x;
+    margin: 2rem;
+    width: 35rem;
 }
-.aside-item{
-    display: inline;
-    margin: 2px;
-    width: 10em;
-    
-}
-.button-aside{
-    background-color: #F75611;
-    border: none;
+.form-card > h1{
     color: white;
-    border-radius: 5px;
 }
-.button-aside:hover{
-    background-color: #ac3c0b;
+label{
+    color: white;
 }
-.aside-item > input , select{
-    height: 3em;
-    width: 10em;
-    border-radius: 5px;
-    border: 0.5px solid black;
+.form-group{
+    width: auto;
 }
-.aside > button{
-    height: 3em;
-    padding: 0.5em;
-    
-}
+
 
 /*Main 2*/
 .bloco_2{

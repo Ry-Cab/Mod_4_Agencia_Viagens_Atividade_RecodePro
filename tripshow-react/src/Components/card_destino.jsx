@@ -1,7 +1,8 @@
-import React from 'react';
-
+import React,{useState} from 'react';
 
 function CardDestino(props){
+    const[nome,setNome]=useState('Comprar');
+    
     return(
         <>
         <div class="card card_compra">
@@ -17,11 +18,14 @@ function CardDestino(props){
         </ul>
         <div class="card-body">
         <p class="card-link"><strong>R${props.Preco}</strong></p>
-        <button className="btn btn-primary">Comprar</button>
+        <button id='botao' className="btn btn-primary" onClick={()=>setNome('Comprado')}>{nome}</button>
         </div>
         </div>
     </>
     );
 }
 
+
+
 export default CardDestino;
+

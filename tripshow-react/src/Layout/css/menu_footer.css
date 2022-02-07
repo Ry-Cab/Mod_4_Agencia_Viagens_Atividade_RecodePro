@@ -59,9 +59,11 @@ nav> img{
 
 /*Configurações de estilo do footer*/
 .footer{
+    width: auto;
     margin-top: 2%;
     color: white;
     display: flex;
+    flex-wrap: wrap;
     background-color: #1129FA;
     padding: 3em;
     
